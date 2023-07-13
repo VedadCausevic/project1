@@ -1,12 +1,15 @@
 # Route Planning Project
 
-This repo contains the starter code for the Route Planning project.
+This project implements an A* route planner given OpenStreetMap in C++, similar to what is used on professional router planners like Google Maps.
+
+It calculates and visualizes the shortest path between two points on the map. The user enters two 2D coordinates and the path is drawn using the io2d library as shown below:
 
 <img src="map.png" width="600" height="450" />
 
-## Cloning
+## Initial Repository
 
-When cloning this project, be sure to use the `--recurse-submodules` flag. Using HTTPS:
+As a starting point initial repository provided by Udacity was used.
+For cloning it, be sure to use the `--recurse-submodules` flag. Using HTTPS:
 ```
 git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-submodules
 ```
